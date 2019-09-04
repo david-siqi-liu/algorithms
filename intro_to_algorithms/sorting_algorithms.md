@@ -91,7 +91,7 @@ for k = p to r: // k is the index in the original array (i.e. A)
 		j = j + 1
 ```
 
-![merge_sort_merge](/Users/dliu/GitHub/algorithms/intro_to_algorithms/pics/merge_sort_merge.png)
+![merge_sort_merge](pics/merge_sort_merge.png)
 
 Procedure ***merge_sort(A, p, r)***:
 
@@ -109,7 +109,7 @@ To sort the entire sequence A, we can make the initial call:
 merge_sort(A, 1, A.length)
 ```
 
-![image-20190904105914916](/Users/dliu/GitHub/algorithms/intro_to_algorithms/pics/merge_sort.png)
+![merge_sort](pics/merge_sort.png)
 
 Since the total number of levels is about $log_2{n} + 1$, and each level has cost n, the total runtime is O(nlogn).
 
