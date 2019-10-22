@@ -45,6 +45,15 @@ Little-$\omega$ gives a lower bound that is not asymptotically tight
   - If $= 0$, then $f(n) = o(g(n))$
   - If $= c$, then $f(n) = \Theta(g(n))$ (i.e. also O and $\Omega$)
   - If $= \infty$, then $f(n) = \omega(g(n))$ 
-- Induction might come in handy when computing limits (show that if $k-1$ holds true, then $k$ also holds true), especially when $n$ is the base of an exponent, so when you take limit, the exponent becomes $k - 1$
+- Induction might come in handy when computing limits (show that if $k-1$ holds true, then $k$ also holds true), especially when it's $n^k$, so when you take derivatives, it becomes $k - 1$
 
 ![image-20191010152533111](pics/image-20191010152533111.png)
+
+- $\log$ does not preserve order
+
+![image-20191019121752577](pics/image-20191019121752577.png)
+
+- However, the inverse is true. If $\log{f(n)} = \Theta(\log{g(n)})$, then $f(n) = \Theta(g(n))$
+
+
+
