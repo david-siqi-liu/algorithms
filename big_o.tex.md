@@ -49,11 +49,10 @@ Little-$\omega$ gives a lower bound that is not asymptotically tight
 
 ![image-20191010152533111](pics/image-20191010152533111.png)
 
-- $\log$ does not preserve order
+- $\log$ may not preserve order
 
 ![image-20191019121752577](pics/image-20191019121752577.png)
 
-- However, the inverse is true. If $\log{f(n)} = \Theta(\log{g(n)})$, then $f(n) = \Theta(g(n))$
-
-
+- However, this is true for $O, \Omega, \Theta$
+- Also however, if $\log{f(n)} = o(\log{g(n)})$, then $f(n)$ is also $o(g(n))$
 

@@ -37,7 +37,7 @@ We show that given any valid solution to the problem, we can convert it to the a
 ### Proof Framework
 
 1. (If necessary) assume w.o.l.g. that the arrays are sorted in increasing/decreasing order
-2. Let $S^*$ be an arbitrary solution
+2. Let $S^*$ be any arbitrary solution (not necessarily the optimal solution), and $S^{\dagger}$ be the solution produced by our algorithm
 3. If $S^* \ne S^{\dagger}$, then there is consecutive/some pair where ...
 4. Therefore, the current measure, in $S^*$ is ...
 5. If we swap ... in $S^*$, the new measure would be ..., which **proves to be better than before**. May also need to prove that the new solution is valid.
